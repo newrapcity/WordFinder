@@ -6,7 +6,7 @@
 $load-icons: true;
 $load-roboto: true;
 $roboto: "Roboto:400,500,600";
-$color: green;
+$color: red;
 
 @import "bourbon/bourbon";
 @import "neat/neat";
@@ -20,12 +20,12 @@ $visual-grid-color: lighten(#FFF0E8, 3%);
 $visual-grid-opacity: 0.4;
 body {
   margin: 0;
-  background-color: $grey-100;
+  background-color: $black;
 }
 #logo {
   font-size: 20px;
   font-weight: 400;
-  color: white;
+  color: black;
   float: left;
   z-index: 5;
   line-height: 64px;
@@ -108,7 +108,7 @@ a {
 }
 footer {
   @extend %footer;
-  background-color: $light-blue-500;
+  background-color: $red;
 }
 #definition {
   ol {
@@ -124,7 +124,7 @@ a.button {
 header {
   @include elevation(4);
   height: 64px;
-  background-color: $light-blue-500;
+  background-color: $red;
   width: 100%;
   position: fixed;
 }
